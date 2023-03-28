@@ -95,6 +95,9 @@ nft = await MyNFT.deployed()
 nft.name()
 
 let a = await nft.createToken(accounts[0])
+
+// interact with contract by account 1
+await sft.mint(1, 1, 100,  {from: accounts[1]})
 ```
 
 ## Save ABI
