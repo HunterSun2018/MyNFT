@@ -99,5 +99,6 @@ let a = await nft.createToken(accounts[0])
 
 ## Save ABI
 ```
+var fs = require('fs')
 await fs.writeFile("nft.abi", JSON.stringify(nft.abi),  (err) => { })
 ```
