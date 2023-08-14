@@ -35,7 +35,10 @@ truffle-export-abi
 ```
 Nethereum.Generator.Console generate from-abi -abi ./ABI.json -o . -ns Sample.Ethereum
 ```
-
+## Initialize project
+```
+truffle init
+```
 ## Install Openzeppelin contracts
 ```
 npm install @openzeppelin/contracts
